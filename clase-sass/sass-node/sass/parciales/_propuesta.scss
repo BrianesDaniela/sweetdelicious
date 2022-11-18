@@ -1,0 +1,46 @@
+.propuesta{
+    background-color: antiquewhite;
+}
+&__header{
+    background: rgb(253,241,229);
+    background: radial-gradient(circle, rgba(253,241,229,1) 45%, rgba(218,174,130,1) 100%);
+}
+&__logo{
+    margin-top: 2rem;
+    margin-left: 26.5rem;
+    margin-right: 20rem;
+}
+&__menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+&__item{
+        display: inline-block;
+        height: 2rem;
+        padding: 1rem 0.5rem;
+ }
+&__titulo{
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 2rem;
+    background-color: darksalmon;
+}
+&__img{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+}
+&__bloque{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+&__desc{
+    margin-top: 4rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}

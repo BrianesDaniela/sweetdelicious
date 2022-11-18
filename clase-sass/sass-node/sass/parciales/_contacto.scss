@@ -1,0 +1,65 @@
+@import "../variables"
+
+.contacto{
+    background-color: antiquewhite;
+}
+&__header{
+    background: rgb(253,241,229);
+    background: radial-gradient(circle, rgba(253,241,229,1) 45%, rgba(218,174,130,1) 100%);
+}
+&__logo{
+    margin-top: 2rem;
+    margin-left: 26.5rem;
+    margin-right: 20rem;
+}
+&__header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    position: sticky;
+    flex-wrap: wrap;
+}
+&__menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+ }
+&___item{
+    display: inline-block;
+    justify-content: center;
+    height: 2rem;
+    padding: 1rem 0.5rem;
+}
+&__consulta{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: darksalmon;
+}
+&__contacto{
+    height: 20rem;
+    width: 20rem;
+    margin: 2rem;
+}
+&__gracias{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+&__form{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    justify-content: center;
+    align-items: end;
+    justify-items: start;
+}
+&__botones{
+    margin-left: 30rem;
+}
+
